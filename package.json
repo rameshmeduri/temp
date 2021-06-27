@@ -1,0 +1,23 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rameshmeduri/temp.git"
+  },
+  "keywords": [],
+  "author": "Ramesh Meduri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rameshmeduri/temp/issues"
+  },
+  "homepage": "https://github.com/rameshmeduri/temp#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
