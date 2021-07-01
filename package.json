@@ -1,23 +1,40 @@
 {
-  "name": "temp",
+  "name": "cra",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"src/**/*.{jsx,js,css,json}\""
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{jsx,js,css,scss,json}\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rameshmeduri/temp.git"
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "classnames": "^2.3.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "reactstrap": "^5.0.0"
   },
-  "keywords": [],
-  "author": "Ramesh Meduri",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rameshmeduri/temp/issues"
-  },
-  "homepage": "https://github.com/rameshmeduri/temp#readme",
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "react-scripts": "^4.0.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
